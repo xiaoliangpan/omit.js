@@ -4,6 +4,7 @@
   "description": "Utility function to create a shallow copy of an object which had dropped some fields.",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "private": false,
   "types": "index.d.ts",
   "files": [
     "lib",
