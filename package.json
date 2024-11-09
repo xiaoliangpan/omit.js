@@ -1,6 +1,6 @@
 {
   "name": "@panxl/omit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility function to create a shallow copy of an object which had dropped some fields.",
   "main": "lib/index.js",
   "module": "es/index.js",
