@@ -1,11 +1,10 @@
-import omit from '../src';
+import { omit } from '../src';
 
 describe('omit', () => {
   it('should create a shallow copy', () => {
     const benjy = { name: 'Benjy' };
     const copy = omit(benjy, []);
     expect(copy).toEqual(benjy);
-
   });
 
   it('should drop fields which are passed in', () => {
